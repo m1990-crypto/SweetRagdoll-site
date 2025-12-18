@@ -72,13 +72,27 @@ body {
 
   
   .news-list {
+    list-style: none;   /* ← ・を消す */
+    padding: 16px;
+    margin: 0;
+
     max-height: 200px;
     overflow-y: auto;
     border: 1px solid #ddd;
-    padding: 16px;
     border-radius: 8px;
     background: #fff;
   }
+
+  .news-list li {
+    padding: 6px 0;
+    border-bottom: 1px dotted #eee;
+    font-size: 0.95em;
+  }
+
+  .news-list li:last-child {
+    border-bottom: none;
+  }
+
   
   .faq-q {
     width: 100%;
