@@ -12,6 +12,22 @@ body {
     background: #fff;
     color: #333;
   }
+
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+
+/* セクション背景交互 */
+  .section:nth-of-type(odd) {
+    background: #fff0f5; /* 薄ピンク */
+  }
+
+  .section:nth-of-type(even) {
+    background: #ffffff; /* 白 */
+  }
+
   
   .hero {
     text-align: center;
@@ -35,21 +51,6 @@ body {
     overflow-x: auto;
     padding: 20px 12px; 
   }
-
-  .horizontal-scroll::-webkit-scrollbar {
-    height: 6px;
-  }
-
-.horizontal-scroll::-webkit-scrollbar-track {
-    background: #eee;
-    border-radius: 3px;
-  }
-
-.horizontal-scroll::-webkit-scrollbar-thumb {
-    background: #ccc;
-    border-radius: 3px;
-  }
-
   
   .card {
     min-width: 220px;
@@ -188,3 +189,17 @@ h2 {
   font-weight: bold;
   margin: 0;
 }
+
+  .horizontal-scroll::-webkit-scrollbar {
+    height: 6px;
+  }
+
+.horizontal-scroll::-webkit-scrollbar-track {
+    background: #eee;
+    border-radius: 3px;
+  }
+
+.horizontal-scroll::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 3px;
+  }
