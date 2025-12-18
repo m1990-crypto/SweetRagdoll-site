@@ -173,10 +173,6 @@ body {
     color: #333;
   }
 
-　h2 {
-  　color: red !important;
-　}
-
-body {
-  background: red !important;
-}
+  h2 {
+     color: red !important;
+  }
