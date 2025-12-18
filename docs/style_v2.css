@@ -71,7 +71,7 @@ body {
   }
 
   
-  .news-list ul{
+  .news-list {
     list-style: none;   /* ← ・を消す */
     padding: 16px;
     margin: 0;
