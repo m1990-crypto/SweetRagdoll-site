@@ -33,7 +33,23 @@ body {
     display: flex;
     gap: 16px;
     overflow-x: auto;
+    padding: 20px 12px; 
   }
+
+  .horizontal-scroll::-webkit-scrollbar {
+    height: 6px;
+  }
+
+.horizontal-scroll::-webkit-scrollbar-track {
+    background: #eee;
+    border-radius: 3px;
+  }
+
+.horizontal-scroll::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 3px;
+  }
+
   
   .card {
     min-width: 220px;
