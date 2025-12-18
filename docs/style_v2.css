@@ -72,21 +72,20 @@ body {
 
   
   .news-list {
-    list-style: none;   /* ← ・を消す */
+    background: #fff;          /* 中は必ず白 */
+    border: 1px solid #ddd;    /* 枠線 */
+    border-radius: 8px;
     padding: 16px;
     margin: 0;
 
-    max-height: 200px;
-    overflow-y: auto;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    background: #fff;
+    list-style: none; 
   }
 
   .news-list li {
     padding: 6px 0;
     border-bottom: 1px dotted #eee;
     font-size: 0.95em;
+    list-style: none;
   }
 
   .news-list li:last-child {
